@@ -1,0 +1,41 @@
+.introduction__shape {
+    position: absolute;
+}
+
+.shape-top {
+    top: 0;
+}
+
+.shape-bottom {
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 0;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.introduction__images {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.introduction__box_header {
+    font-size: 18px;
+    color: white;
+    font-family: 'Dancing Script',handwriting;
+}
+
+.introduction__box_text {
+    margin: 0;
+    color: white;
+    font-family: "Work Sans", Arial, sans-serif;
+    line-height: 1.5;
+}

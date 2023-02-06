@@ -1,0 +1,49 @@
+@import url(../block/page-transition.css);
+@import url(../block/opening.css);
+@import url(../block/introduction.css);
+@import url(../block/event.css);
+@import url(../block/fonts.css);
+
+.images__header {
+  width: 100%;
+}
+
+.page__slider {
+  display: grid;
+  place-items: center;
+}
+
+.images__slider {
+  width: 95%;
+  border-radius: 20px;
+}
+
+.slider__header {
+  animation: 1341.72ms ease 0ms 1 normal none running popup;
+  color: black;
+  font-family: "The Nautigal", Sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page__countdown {
+  
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 2rem;
+}
