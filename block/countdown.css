@@ -1,0 +1,7 @@
+.countdown__section {
+  background-image: url(images/background1.png);
+  background-color: #3784AB;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 2rem;
+}

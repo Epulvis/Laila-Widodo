@@ -1,7 +1,9 @@
 @import url(../block/page-transition.css);
 @import url(../block/opening.css);
 @import url(../block/introduction.css);
+@import url(../block/countdown.css);
 @import url(../block/event.css);
+@import url(../block/form.css);
 @import url(../block/header.css);
 @import url(../block/fonts.css);
 @import url(../vendor/icon.css);
@@ -56,11 +58,4 @@
 
 * {
   box-sizing: border-box;
-}
-
-.page__countdown {
-  
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 2rem;
 }

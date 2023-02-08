@@ -42,8 +42,7 @@ p {
 }
 
 h1 {
-  color: white;
-  font-family: arial;
+  font-family: 'Ruluko', sans-serif;
   font-weight: bold;
   font-size: 3em;
 }

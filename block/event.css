@@ -1,5 +1,5 @@
 .event__section {
-  background: linear-gradient(324deg,rgb(2 90 129) 0%,rgb(40,116,252) 100%);
+  background-color: #e0e0e0;
 }
 
 .page-4 {
@@ -16,7 +16,7 @@
   --e-column-margin-right: 6px;
   --e-column-margin-left: 6px;
   padding: 20px 5px 20px 5px;
-  border: 3px solid #999668;
+  border: 3px solid #133466;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 0px #41403f;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;

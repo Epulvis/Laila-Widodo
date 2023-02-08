@@ -1,17 +1,20 @@
+.opening__section {
+    background-image: url(../images/Background-Home-Mobile-4-scaled.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
 .opening {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
     width: 93%;
-    animation: animasi 3s ease-in-out;
+    animation: popdown 3s ease-in-out;
 }
 
 .opening__images {
-    margin-top: 20px;
+    margin: 30px;
 }
 
 .opening__title {
@@ -22,15 +25,4 @@
 
 .opening__text {
     text-align: center;
-}
-
-@keyframes animasi {
-    0% {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
 }

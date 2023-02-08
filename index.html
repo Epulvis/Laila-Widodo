@@ -28,7 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="page" style="background-color: #38a8cc">
+    <section class="page opening__section">
       <div class="opening">
         <img
           class="opening__images"
@@ -43,12 +43,11 @@
           serta Kerabat sekalian untuk menghadiri acara pernikahan kami:
         </p>
       </div>
-    </div>
+      <img class="shape shape_bottom" src="images/shape_blue.svg" alt="shape">
+    </section>
 
-    <div class="page" style="background-image: url(images/Simple\ Shiny.svg)">
-      <div class="introduction__shape shape-top" data-v-6a444349="">
-        <img src="./images/background.svg" alt="" />
-      </div>
+    <div class="page introduction__section">
+      <img class="shape shape__top" src="images/shape_blue.svg" alt="shape">
       <div class="introduction">
         <img
           class="introduction__images"
@@ -56,23 +55,31 @@
           alt="Pengantin wanita"
         />
         <div class="introduction__box">
-          <h2 class="introduction__box_header">Laila Nurul Hidayah, S.Pd.I</h2>
-          <p class="introduction__box_text">Putri dari</p>
-          <p class="introduction__box_text">Bapak Syamsuri, S.Pd.I</p>
-          <p class="introduction__box_text">Ibu Iffaridah, S.Pd.I., S.Pd</p>
+          <h2 class="introduction__box_header box__text_1">
+            Laila Nurul Hidayah, S.Pd.I
+          </h2>
+          <p class="introduction__box_text box__text_1">Putri dari</p>
+          <p class="introduction__box_text box__text_1">
+            Bapak Syamsuri, S.Pd.I
+          </p>
+          <p class="introduction__box_text box__text_1">
+            Ibu Iffaridah, S.Pd.I., S.Pd
+          </p>
         </div>
       </div>
-      <span class="elementor-divider-separator">
-        <div class="elementor-icon elementor-divider__element">
-          <i aria-hidden="true" class="far fa-heart"></i>
-        </div>
-      </span>
+      <i aria-hidden="true" class="far fa-heart"></i>
       <div class="introduction">
         <div class="introduction__box">
-          <h2 class="introduction__box_header">Widodo Arief Jatmiko, S.AB</h2>
-          <p class="introduction__box_text">Putra dari</p>
-          <p class="introduction__box_text">Bapak Purwanto Basuki, S.Pd</p>
-          <p class="introduction__box_text">Ibu Juli Astutik, S.Pd</p>
+          <h2 class="introduction__box_header box__text_2">
+            Widodo Arief Jatmiko, S.AB
+          </h2>
+          <p class="introduction__box_text box__text_2">Putra dari</p>
+          <p class="introduction__box_text box__text_2">
+            Bapak Purwanto Basuki, S.Pd
+          </p>
+          <p class="introduction__box_text box__text_2">
+            Ibu Juli Astutik, S.Pd
+          </p>
         </div>
         <img
           class="introduction__images"
@@ -80,23 +87,23 @@
           alt="Pengantin Pria"
         />
       </div>
-      <div class="introduction__shape shape-bottom" data-v-6a444349=""></div>
     </div>
 
-    <div
-      class="page page__countdown"
-      style="
-        background-image: url(images/background1.png);
-        background-color: #104636;
-      "
-    >
-      <p class="event__text">
+    <section class="page countdown__section">
+      <i aria-hidden="true" class="fas fa-quote-right"></i>
+      <p>
+        Siang dan malam berganti begitu cepat, di antara saat-saat mendebarkan
+        yang belum pernah kami rasakan sebelumnya. Kami nantikan kehadiran para
+        keluarga dan sahabat, untuk menjadi saksi ikrar janji suci kami di hari
+        yang bahagia.
+      </p>
+      <h1 id="demo"></h1>
+      <p>
         Dengan momohon rahmat dan ridho Allah SWT, kami bermaksud
         menyelenggarakan rangkaian acara pernikahan kami, yang insya Allah akan
         di selenggarakan pada:
       </p>
-      <h1 id="demo"></h1>
-    </div>
+    </section>
 
     <section class="page event__section">
       <div class="event">
@@ -239,8 +246,31 @@
       <h1>Ucapan selamat</h1>
     </div>
 
-    <div class="page header__section" style="background-image: url(images/DSC_0059.JPG);">
+    <section class="page form__section">
+      <h1>RSVP</h1>
+      <p>
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila
+        Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada
+        kedua mempelai. Atas kehadiran serta doa restu, kami ucapkan terima
+        kasih.
+      </p>
+      <div class="input__container">
+        <label for="Name" class="form__label">Nama</label>
+        <input
+          type="text"
+          class="form__item"
+          placeholder="Isikan nama anda"
+          required
+        />
+      </div>
+    </section>
+
+    <div
+      class="page header__section"
+      style="background-image: url(images/DSC_0059.JPG)"
+    >
       <h1>laila & widodo</h1>
+      <img class="header__wave" src="images/shape_wave.svg" alt="wave" />
     </div>
 
     <p class="usage">Click anywhere on screen</p>
