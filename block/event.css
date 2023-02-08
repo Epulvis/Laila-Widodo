@@ -1,17 +1,27 @@
+.event__section {
+  background: linear-gradient(324deg,rgb(2 90 129) 0%,rgb(40,116,252) 100%);
+}
+
 .page-4 {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 }
 .event {
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
-  padding: 25px;
-  width: 300px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+  background-image: url(../images/jadwal-scaled.jpg);
+  background-position: center center;
+  background-size: cover;
+  border-width: 2px 2px 2px 2px;
+  margin: 0px 6px 0px 6px;
+  --e-column-margin-right: 6px;
+  --e-column-margin-left: 6px;
+  padding: 20px 5px 20px 5px;
+  border: 3px solid #999668;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px #41403f;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  display: grid;
+  place-items: center;
 }
 
 .event__container {
@@ -21,13 +31,17 @@
 }
 
 .event__header {
-  color: #fff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  padding-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: center;
-  font-size: 20px;
+  color: #999668;
+  font-family: "Dancing Script", Sans-serif;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px;
+  line-height: 1;
+  font-size: 25px;
+}
+
+.event__images {
+  max-width: 20%;
 }
 
 .event__box {
@@ -39,15 +53,17 @@
 }
 
 .event__text {
-  color: #fff;
+  font-family: "Poppins", Sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-  margin: 0;
+  font-size: 13px;
+  text-align: left;
 }
 
-.icons {
-  color: white;
+.event__list-item {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
 }
 
 .event__text_address {

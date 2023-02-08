@@ -15,6 +15,15 @@
       href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/666bcad91d.css"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/666bcad91d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/prefixfree.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
@@ -89,47 +98,61 @@
       <h1 id="demo"></h1>
     </div>
 
-    <div class="page" style="background-image: url(images/img_bg_3.jpg)">
+    <section class="page event__section">
       <div class="event">
+        <img
+          class="event__images"
+          src="images/wedding-ring.png"
+          alt="akad nikah"
+        />
         <h1 class="event__header">Akad Nikah</h1>
-        <div class="event__container">
-          <div class="event__box">
-            <span class="material-symbols-outlined icons"> schedule </span>
-            <p class="event__text">16:30 WIB</p>
-            <p class="event__text">selesai</p>
-          </div>
-          <div class="event__box">
-            <span class="material-symbols-outlined icons"> event </span>
-            <p class="event__text">Jumat</p>
-            <p class="event__text">17 Februari 2023</p>
-          </div>
-        </div>
-        <p class="event__text event__text_address">
-          Bertempat di Jalan Baitul Ikhsan RT 2 RW 1 Dusun Kaliwungu, Desa
-          Mlaras, Kec. Sumobito, kab Jombang
-        </p>
+        <ul>
+          <li class="event__list-item">
+            <i aria-hidden="true" class="fas fa-calendar-alt"></i>
+            <p class="event__text">Jumat, 17 Februari 2023</p>
+          </li>
+          <li class="event__list-item">
+            <i aria-hidden="true" class="fas fa-clock"></i>
+            <p class="event__text">Pukul : 16:30 WIB - Selesai</p>
+          </li>
+          <li class="event__list-item">
+            <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+            <p class="event__text">
+              Jalan Baitul Ikhsan RT 2 RW 1 <br />
+              Dusun Kaliwungu, Desa Mlaras, <br />
+              Kec. Sumobito, kab Jombang
+            </p>
+          </li>
+        </ul>
       </div>
-    </div>
+    </section>
 
     <div class="page" style="background-image: url(images/img_bg_3.jpg)">
       <div class="event">
+        <img
+          class="event__images"
+          src="images/wedding-arch.png"
+          alt="akad nikah"
+        />
         <h1 class="event__header">Resepsi</h1>
-        <div class="event__container">
-          <div class="event__box">
-            <span class="material-symbols-outlined icons"> schedule </span>
-            <p class="event__text">09:00 WIB</p>
-            <p class="event__text">selesai</p>
-          </div>
-          <div class="event__box">
-            <span class="material-symbols-outlined icons"> event </span>
-            <p class="event__text">Sabtu</p>
-            <p class="event__text">18 Februari 2023</p>
-          </div>
-        </div>
-        <p class="event__text event__text_address">
-          Bertempat di Jalan Baitul Ikhsan RT 2 RW 1 Dusun Kaliwungu, Desa
-          Mlaras, Kec. Sumobito, kab Jombang
-        </p>
+        <ul>
+          <li class="event__list-item">
+            <i aria-hidden="true" class="fas fa-calendar-alt"></i>
+            <p class="event__text">Sabtu, 18 Februari 2023</p>
+          </li>
+          <li class="event__list-item">
+            <i aria-hidden="true" class="fas fa-clock"></i>
+            <p class="event__text">Pukul : 09:00 WIB - Selesai</p>
+          </li>
+          <li class="event__list-item">
+            <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+            <p class="event__text">
+              Jalan Baitul Ikhsan RT 2 RW 1 <br />
+              Dusun Kaliwungu, Desa Mlaras, <br />
+              Kec. Sumobito, kab Jombang
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -137,84 +160,87 @@
       <h1>Story</h1>
     </div>
 
-    <div class="page page__slider" style="background-color: rgb(218, 220, 222);">
-      <h1 class="slider__header">Galeri Foto</h1>
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0026.JPG"
-              alt="slide-1"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0031.JPG"
-              alt="slide-2"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0034.JPG"
-              alt="slide-3"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0037.JPG"
-              alt="slide-4"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0038.JPG"
-              alt="slide-5"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0042.JPG"
-              alt="slide-6"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0066.JPG"
-              alt="slide-7"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="images__slider"
-              src="./images/galeri/DSC_0100.JPG"
-              alt="slide-8"
-            />
+    <div class="page page__slider" style="background-color: #70787e">
+      <div class="slider__container">
+        <img
+          class="shape__slider"
+          src="images/Asset-1.png"
+          alt="shape slider"
+        />
+        <h1 class="slider__header">Galeri Foto</h1>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0026.JPG"
+                alt="slide-1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0031.JPG"
+                alt="slide-2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0034.JPG"
+                alt="slide-3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0037.JPG"
+                alt="slide-4"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0038.JPG"
+                alt="slide-5"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0042.JPG"
+                alt="slide-6"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0066.JPG"
+                alt="slide-7"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="images__slider"
+                src="./images/galeri/DSC_0100.JPG"
+                alt="slide-8"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="page" style="background-color: #cf9b2a">
+    <div class="page" style="background-color: #a9e0dc">
       <h1>Ucapan selamat</h1>
     </div>
 
-    <div class="page" style="background-color: rgb(0, 0, 0)">
-      <img
-        class="images__header"
-        src="images/DSC_0065.JPG"
-        alt="cover images"
-      />
+    <div class="page header__section" style="background-image: url(images/DSC_0059.JPG);">
+      <h1>laila & widodo</h1>
     </div>
 
     <p class="usage">Click anywhere on screen</p>

@@ -1,0 +1,6 @@
+.header__section {
+    border-radius: 0 0px 58%;
+    background-size: cover;
+    background-position: right;
+    filter: brightness(0.5);
+}
