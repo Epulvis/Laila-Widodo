@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Form</title>
-        <style>
-            form {
-                width: 50%;
-                margin: 0 auto;
-                padding: 20px;
-                border: 1px solid #ccc;
-                border-radius: 10px;
-            }
 
-            label {
-                font-weight: bold;
-                margin-top: 10px;
-                display: block;
-            }
-        </style>
-    </head>
-    <body>
-        <section>
-            <div>
-                <h1>R S V P</h1>
-                <p>Please confirm your attendance</p>
-                <form action="#">
-                    <label for="name">name:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                    >
-                    <label for="kehadiran">apakah anda akan hadir</label>
-                    <select name="kehadiran" id="kehadiran">
-                        <option value="iya">Iya</option>
-                        <option value="tidak">Tidak</option>
-                    </select>
-                    <input type="submit" value="submit">
-                </form>
-            </div>
-        </section>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <section>
+        <div class="comment-form-container">
+            <form id="post-guestbook-box">
+                <div class="guestbook-label">
+                    <label class="">
+                        Nama </label>
+                </div>
+                <input class="form-control" type="text" name="guestbook-name" placeholder="Isikan Nama Anda" required>
+
+                <div class="guestbook-label">
+                    <label class="">
+                        Pesan </label>
+                </div>
+                <textarea class="form-control" rows="3" name="guestbook-message"
+                    placeholder="Berikan Ucapan Dan Doa Restu" required></textarea>
+                <div class="guestbook-label">
+                    <label class="">
+                        Konfirmasi Kehadiran </label>
+                </div>
+                <select class="form-control" name="confirm" required>
+                    <option value="">Konfirmasi Kehadiran</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Akan Hadir">Akan Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+                <div class="elementor-button-wrapper">
+                    <button type="submit" class="elementor-button-link elementor-button elementor-size-sm">
+                        Kirimkan Ucapan </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
 </html>

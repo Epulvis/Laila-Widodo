@@ -22,6 +22,10 @@
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
+.intro2 {
+    border-radius: 60px 0 0;
+}
+
 .introduction__box_header {
     font-size: 18px;
     color: black;
