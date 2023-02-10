@@ -1,7 +1,24 @@
 .countdown__section {
   background-image: url(../images/xzzz-scaled-1.jpg);
-  background-color: #3784AB;
   background-size: cover;
   background-position: center;
   padding-bottom: 2rem;
+}
+
+#demo {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.countdown {
+  width: calc(100% / 4);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 100vh 0;
+}
+
+.fa-quote-right {
+  font-size: x-large;
 }

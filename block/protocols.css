@@ -1,5 +1,5 @@
 .protocols__section {
-  background-image: url(../images/xzzz-scaled-1.jpg);
+  background-image: url(../images/vxxxvxv-scaled-13.jpg);
   background-size: cover;
 }
 
@@ -12,6 +12,10 @@
     box-shadow: 0px 0px 10px 0px #41403f;
     padding: 30px;
     color: #fff;
+}
+
+.protocols__header {
+  margin-bottom: 20px;
 }
 
 .protocols__box {
