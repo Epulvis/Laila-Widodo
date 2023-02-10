@@ -27,5 +27,12 @@
   src: url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+@font-face {
+  font-family: 'The Nautigal', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+}
+
 /*icon*/
 @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0);
